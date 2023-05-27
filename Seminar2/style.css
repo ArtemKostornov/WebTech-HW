@@ -1,0 +1,25 @@
+@font-face {
+	font-family: 'CoquetteC';
+	src: url('./fonts/coquettec.eot'); /* IE 9 Compatibility Mode */
+	src: url('./fonts/coquettec.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('./fonts/coquettec.woff2') format('woff2'), /* Super Modern Browsers */
+		url('./fonts/coquettec.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('./fonts/coquettec.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('./fonts/coquettec.svg#coquettec') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+
+body { 
+    font-family: "CoquetteC";
+    font-size: 30px;
+    background: #167;
+    background-image: url(img/back_bikini.png);
+}
+img{
+    width: 400px;
+    margin-left: 35%;
+    border-radius: 10px;
+    border: none;
+    padding: -10%;
+
+}
